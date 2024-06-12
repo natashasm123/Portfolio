@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: aliceblue;
+    
+        }
+        form {
+            width: 60%;
+            max-width: 1000px;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+        
+    h1{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 0 10px 0;
+    }
+    h2{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: left;
+        margin: 20px 0 10px 0;
+    }
+    ul {
+        list-style-type: disc; 
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .circle-bullets ul {
+        list-style-type: circle;
+    } 
+    .button-container {
+        transition-duration: 0.4s;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .Next-button, .Back-button {
+        padding: 10px 20px;
+        background-color: grey;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .Next-button:hover, .Back-button:hover {
+        background-color: maroon;
+    }
+    </style>
+</head>
+<body>
+    <form action="port Contact.html">
+        <h1>Skills</h1>
+        <section class="circle-bullets">
+        <h2>Hard Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>MySQL</li>
+            <li>Ms Excel</li>
+        </ul>
+    </section>
+    <Section class="circle-bullets">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Decision making</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Adaptability</li>
+        </ul>
+    </Section>
+    <div class="button-container">
+        <a href="port Projects.html" class="Back-button">Back</a>
+        <input type="submit" id="six" value="Next" class="Next-button">
+    </div>
+    </form>
+</body>
+</html>

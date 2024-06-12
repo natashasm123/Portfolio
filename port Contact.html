@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: aliceblue;
+    
+        }
+        form {
+            width: 60%;
+            max-width: 1000px;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+        h1{
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-align: center;
+            padding: 20px;
+            margin: 20px 0 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        a{
+            font-size: 20px;
+        }
+        span{
+            font-size: 20px;
+        }
+        .button-container {
+            transition-duration: 0.4s;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .Next-button, .Back-button {
+            padding: 10px 20px;
+            background-color: grey;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .Next-button:hover, .Back-button:hover {
+            background-color: maroon;
+        }
+    </style>
+</head>
+<body>
+    <form action="Portfolio index.html">
+        <h1>Contact Details</h1>
+        <ul class="contact-list">
+            <li>
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-2097/94/phone-512.png" height="25px" width="25px" alt="">
+                <span> +918088590135 </span>
+            </li>
+            <li>
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" height="25px" width="25px" alt="">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yourname@example.com">natashamali.jcer@gmail.com</a>
+            </li>
+            <li>
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" height="25px" width="25px" alt="">
+                <a href="https://www.linkedin.com/in/natasha-mali-14a376247" target="_blank">LinkedIn Profile</a> <br> <br>
+            </li>
+        </ul>
+        <div class="button-container">
+            <a href="port About me.html" class="Back-button">Back</a>
+            <a href="Portfolio index.html" class="Back-button">Next</a>
+        </div>
+    </form>
+</body>
+</html>
